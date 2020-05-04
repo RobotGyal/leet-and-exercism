@@ -9,14 +9,13 @@ def convert(number):
 
     if number % 7 == 0:
         result += "Plong"
-        
+
     if result == '':
-        return number
+        return str(number)
 
     return result
 
 
-print(convert(4))
 
 """
 Introduction
